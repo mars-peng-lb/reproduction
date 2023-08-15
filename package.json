@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
+    "bundle-install": "cd ios && bundle install && cd ..",
     "pod-install": "cd ios && RCT_NEW_ARCH_ENABLED=1 NO_FLIPPER=1 USE_FRAMEWORKS=static bundle exec pod install && cd .."
   },
   "dependencies": {
